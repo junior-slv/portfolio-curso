@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+/* cabeçalho da página */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #000;
+}
+header nav ul{
+    display: flex;
+    color: white;
+}
+header nav ul li a{
+    color: white;
+    padding: 1rem
+}
+
+/* conteúdo  */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: gray;
+}
+#home{
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 64px;
+}
+/* rodapé */
+footer{
+    width: 100%;
+    color: white;
+    background: #000;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Olá, sou o Junior &#128516;</h1>
+        <img src="img.jpg" alt="">
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Exemplo de texto da seção Sobre Mim</p>
+    </section>
+
+    <section id="qualificacao">
+        <h2>Qualificação</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Projeto 1</h3>
+            <img src="projeto1.jpg" alt="Projeto 1" />
+            <p>Descrição do Projeto 1</p>
+        </div>
+        <div class="project">
+            <h3>Projeto 2</h3>
+            <img src="projeto2.jpg" alt="Projeto 2" />
+            <p>Descrição do Projeto 2</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Meu Portfolio. Todos os direitos reservadoss.</p>
+    </footer>
+</body>
+
+</html>

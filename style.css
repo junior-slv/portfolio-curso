@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+/* cabeçalho da página */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #000;
+}
+header nav ul{
+    display: flex;
+    color: white;
+}
+header nav ul li a{
+    color: white;
+    padding: 1rem
+}
+
+/* conteúdo  */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: gray;
+}
+#home{
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 64px;
+}
+/* rodapé */
+footer{
+    width: 100%;
+    color: white;
+    background: #000;
+}
